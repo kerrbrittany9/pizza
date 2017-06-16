@@ -2,23 +2,28 @@ function Pizza(first, last, size, toppings) {
   this.firstName = first;
   this.lastName = last;
   this.pizzaSize = size;
-  this.toppings = [];
+  this.toppings;
 }
  function Toppings () {
+  this.cheese = cheese
   this.proteins = protein;
   this.veggies = veggies;
-  this.plain = plain;
+  this.extra = extra
 }
 
-Pizza.prototype.fullOrder = function() {
-  return this.firstName + " " + this.lastName + ": " + this.pizzaSize + " pizza with " + this.toppings;
+Pizza.prototype.fullName = function() {
+  return this.firstName + " " + this.lastName;
 }
+Pi
 
 function resetFields() {
   $("#new-first-name").val("");
   $("#new-last-name").val("");
   $("#size").val("small");
-  // $("#toppings").val("unchecked");
+  $("#cheese").val("1");
+  $("#protein").val("2");
+  $("#veggies").val("2");
+  $("#extra").val("1");
 }
 
 $(document).ready(function() {
@@ -29,15 +34,19 @@ $(document).ready(function() {
     var inputtedSize = $("#size").val()
     var inputtedFirstName = $("input#new-first-name").val();
     var inputtedLastName = $("input#new-last-name").val();
-    $("input:checkbox[name=toppings]:checked").each(function(){
-    var inputtedToppings= $(this).val();
+    var inputtedCheese = parseInt("#cheese").val();
+    var inputtedProteins = parseInt("#protein").val();
+    var inputtedVeggies = parseInt("#veggies").val();
+    var inputtedExtra = parseInt("#extra").val();
+
 
     var newPizza = new Pizza(inputtedFirstName, inputtedLastName, inputtedSize, inputtedToppings);
 
-    var newToppings = new Topping (protein, veggies, plain);
-    var order = newPizza.fullOrder();
+    var newToppings = new Topping (cheese, protein, veggies, extra);
 
-  $("ul#order").append("<li>" + order + "</span></li>");
+    var name = newPizza.fullName();
+
+  $("ul#order").append("<li>" + name + "</span></li>");
 
     });
   resetFields();
