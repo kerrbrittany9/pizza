@@ -21,7 +21,7 @@ Pizza.prototype.fullName = function() {
 function resetFields() {
   $("#new-first-name").val("");
   $("#new-last-name").val("");
-  $("#size").val("1");
+  $("#size").val("5");
   $("#cheese").val("1");
   $("#protein").val("0");
   $("#veggies").val("0");
