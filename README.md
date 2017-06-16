@@ -6,10 +6,10 @@
 
 ## Description
 
-This web application demonstrates use of prototype and constructors
+This web application demonstrates use of prototype and constructors by allowing users to order a bespoke pizza. 
 
 ## Specs
-# This program takes first and last name of user and shows full name.
+# This program takes first and last name of user and applies it to their order.
   # Input: first name: Johnny, last name: Quest
   # Output: Johnny Quest
 # This program allows user to choose pizza size and pizza toppings and returns the total cost of their pizza.

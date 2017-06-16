@@ -44,8 +44,10 @@ $(document).ready(function() {
   var name = newPizza.fullName();
   var receipt = newPizza.fullCost();
 
-  $("ul#order").append("<li>" + name + " owes $" + receipt + "</span></li>");
-
+  $("ul#order").append("<li class='order'>" + name + " owes $" + receipt + "</span></li>");
+  $(".order").click(function() {
+     $(this).remove();
+  });
   resetFields();
   });
 });

@@ -8,5 +8,15 @@ body {
 }
 .jumbotron p {
   color: lightblue;
-
+}
+ul {
+  list-style: none;
+}
+.well {
+  background-image: url(../herb.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px;
+  text-shadow: 1px 1px white;
+  opacity: .3
 }
