@@ -1,3 +1,10 @@
-/*#err-name {
-  display: none;
-}*/
+body {
+  background-color: azure;
+}
+.jumbotron {
+  background-color: aliceblue;
+}
+.jumbotron p {
+  color: lightblue;
+  
+}

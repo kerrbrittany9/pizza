@@ -6,32 +6,24 @@
 
 ## Description
 
-This application is a demonstration of constructors and prototypes using JavaScript to create a simple Address Book app.
+This web application demonstrates use of prototype and constructors
 
 ## Specs
 # This program takes first and last name of user and shows full name.
   # Input: first name: Johnny, last name: Quest
   # Output: Johnny Quest
-# This program allows user to choose pizza toppings and shows on screen with their name.
-  # Input : User checks pepperoni, mushrooms, onions.
-  # Output : Johnny Quest: pepperoni, mushrooms, onions
-# This program further allows user to choose pizza size.
-  # Input: small pizza
-  # Output: Johnny Quest: small pepperoni, mushroom, onion pizza
-Further exploration:
-# This program allows user to order more than one pizza with different toppings.
-  # Input: small pizza - cheese, medium pizza - pepperoni
-  # Output: Order for Johnny Quest: small cheese pizza and medium pepperoni pizza
-
-# This program displays a list of pizzas ordered as links that can be clicked for details.
-
-# This program offers a delivery option that requires address from user.
-
+# This program allows user to choose pizza size and pizza toppings and returns the total cost of their pizza.
+  # Input : User checks small, pepperoni, mushrooms, onions.
+  # Output : Johnny Quest owes $18.
 
 
 ## Setup
 
-Install address-book by cloning this repository into your console with command "git clone URL". Type "atom ." in console to open with atom or type "index.html" to see the webpage in browser.
+# Sign into GitHub and copy URL.
+# In local terminal, type command "git clone [paste URL here]"
+# To open this application in atom from local terminal, type "atom . "
+# To open in browser, type "open index.html" into terminal.
+
 
 ## Technologies Used
 
