@@ -1,6 +1,7 @@
 body {
   background-color: azure;
   font-family: 'Abel', sans-serif;
+  text-align: center;
 }
 .jumbotron {
   background-color: aliceblue;

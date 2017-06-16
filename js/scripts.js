@@ -31,7 +31,7 @@ function resetFields() {
 $(document).ready(function() {
   $("form#pizza").submit(function(event) {
   event.preventDefault();
-//input info from fields
+
   var inputtedFirstName = $("input#new-first-name").val();
   var inputtedLastName = $("input#new-last-name").val();
   var inputtedSize = parseInt($("#size").val());
