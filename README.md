@@ -9,19 +9,19 @@
 This application is a demonstration of constructors and prototypes using JavaScript to create a simple Address Book app.
 
 ## Specs
-# This program takes a generic pizza order from user.
-  # Input: User selects a pizza.
-  # Output: Pizza
-# This program allows user to choose pizza toppings.
-  # Input : User orders pizza and selects cheese and pepperoni.
-  # Output : Pepperoni and cheese pizza.
+# This program takes first and last name of user and shows full name.
+  # Input: first name: Johnny, last name: Quest
+  # Output: Johnny Quest
+# This program allows user to choose pizza toppings and shows on screen with their name.
+  # Input : User checks pepperoni, mushrooms, onions.
+  # Output : Johnny Quest: pepperoni, mushrooms, onions
 # This program further allows user to choose pizza size.
   # Input: small pizza
-  # Output: small pepperoni pizza
+  # Output: Johnny Quest: small pepperoni, mushroom, onion pizza
 Further exploration:
 # This program allows user to order more than one pizza with different toppings.
   # Input: small pizza - cheese, medium pizza - pepperoni
-  # Output: Order for Davi: small cheese pizza and medium pepperoni pizza
+  # Output: Order for Johnny Quest: small cheese pizza and medium pepperoni pizza
 
 # This program displays a list of pizzas ordered as links that can be clicked for details.
 
@@ -35,7 +35,7 @@ Install address-book by cloning this repository into your console with command "
 
 ## Technologies Used
 
-JavaScript, jQuery,
+JavaScript, jQuery, Bootstrap, CSS, HTML5
 
 ### Legal
 
