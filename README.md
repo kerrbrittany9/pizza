@@ -1,34 +1,39 @@
-# Pizza Parlor
+# _Pizza Parlor_
 
-#####Order a pizza with a selection of toppings, June 16, 2017
+#### Order a pizza with a selection of toppings, June 16,2017
 
-#### By Brittany Kerr
+#### By _Brittany Kerr
 
 ## Description
 
-This web application demonstrates use of prototype and constructors by allowing users to order a bespoke pizza. 
-
-## Specs
-# This program takes first and last name of user and applies it to their order.
-  # Input: first name: Johnny, last name: Quest
-  # Output: Johnny Quest
-# This program allows user to choose pizza size and pizza toppings and returns the total cost of their pizza.
-  # Input : User checks small, pepperoni, mushrooms, onions.
-  # Output : Johnny Quest owes $18.
-
+This web application demonstrates use of prototype and constructors by allowing users to order a bespoke pizza.
 
 ## Setup
 
-# Sign into GitHub and copy URL.
-# In local terminal, type command "git clone [paste URL here]"
-# To open this application in atom from local terminal, type "atom . "
-# To open in browser, type "open index.html" into terminal.
+Sign into GitHub and copy URL "https://github.com/kerrbrittany9/pizza".
+In local terminal, type command "git clone [paste URL here]"
+To open this application in atom from local terminal, type "atom . "
+To open in browser, type "open index.html" into terminal.
 
+## ## Specs
+
+*This program takes first and last name of user and applies it to their order.
+  * Input: first name: Johnny, last name: Quest
+  * Output: Johnny Quest
+
+*This program allows user to choose pizza size and pizza toppings and returns the total cost of     
+  their pizza.
+  * Input : User checks small, pepperoni, mushrooms, onions.
+  * Output : Johnny Quest owes $18.
+
+## Support and contact details
+
+_Please contact Brittany Kerr at kerrbrittany9@gmail.com
 
 ## Technologies Used
 
-JavaScript, jQuery, Bootstrap, CSS, HTML5
+_JavaScript, jQuery, Bootstrap, CSS, HTML5_
 
-### Legal
+### License
 
 Copyright (c) 2017
