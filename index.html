@@ -28,29 +28,49 @@
           <div class="form-group">
             <label for="size">Size</label>
             <select class="form-control" id="size">
-              <option value="small">Small</option>
-              <option value="medium">Medium</option>
-              <option value="large">Large</option>
+              <option value="5">Small</option>
+              <option value="8">Medium</option>
+              <option value="12">Large</option>
             </select><br>
           </div>
-          <div class="form-group" id="toppings">
-            <h3>What do fancy on your pizza?</h3>
-            <input type="checkbox" name="toppings" value="plain">Plain: just cheese<br>
-            <input type="checkbox" name="toppings" value="pepperoni">Pepperoni<br>
-            <input type="checkbox" name="toppings" value="sausage">Sausage<br>
-            <input type="checkbox" name="toppings" value="fried-egg">Fried Egg<br>
-            <input type="checkbox" name="toppings" value="baked-tofu">Baked Tofu<br>
-            <input type="checkbox" name="toppings" value="mushroom">Mushrooms<br>
-            <input type="checkbox" name="toppings" value="banana-peppers">Banana Peppers<br>
-            <input type="checkbox" name="toppings" value="onions">Onions<br>
-            <input type="checkbox" name="toppings" value="olives">Olives<br>
+          <div class="form-group">
+            <label for="size">Cheese or No Cheese</label>
+            <select class="form-control" id="cheese">
+              <option value="1">Plain Cheese</option>
+              <option value="1">Just Sauce, no cheese</option>
+            </select><br>
           </div>
-
+          <div class="form-group">
+            <label for="size">Protein</label>
+            <select class="form-control" id="protein">
+              <option value="2">pepperoni</option>
+              <option value="2">Sausage</option>
+              <option value="2">Baked Tofu</option>
+            </select><br>
+          </div>
+          <div class="form-group">
+            <label for="size">Veggies</label>
+            <select class="form-control" id="veggies">
+              <option value="1">Peppers</option>
+              <option value="1">Onions</option>
+              <option value="1">Tomatoes</option>
+            </select><br>
+          </div>
+          <div class="form-group">
+            <label for="size">Extra Classy</label>
+            <select class="form-control" id="extra">
+              <option value="3">Pineapple and Pecans</option>
+              <option value="3">Feta and Caramelized Onions</option>
+              <option value="3">Fried Egg and Ham</option>
+            </select><br>
+          </div>
           <button type="submit">Click to Order</button>
         </form>
 
         <h2>Order</h2>
         <ul id="order">
+        </ul>
+        <ul id="receipt">
         </ul>
       </div>
     </body>
