@@ -5,8 +5,10 @@ function Pizza(first, last, size, toppings) {
   this.toppings = toppings;
 }
 
+
+
 Pizza.prototype.fullOrder = function() {
-  return this.firstName + " " + this.lastName + " " + this.pizzaSize + " " + this.toppings;
+  return this.firstName + " " + this.lastName + ": " + this.pizzaSize + " pizza with " + this.toppings;
 }
 
 function resetFields() {
@@ -29,7 +31,9 @@ $(document).ready(function() {
 
     var newPizza = new Pizza(inputtedFirstName, inputtedLastName, inputtedSize, inputtedToppings);
 
-  $("ul#order").append("<li>" + newPizza.fullOrder() + "</span></li>");
+    var order = newPizza.fullOrder();
+
+  $("ul#order").append("<li>" + order + "</span></li>");
 
     });
   resetFields();
