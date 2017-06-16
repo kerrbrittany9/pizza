@@ -1,11 +1,10 @@
-// function Pizza(protein) {
-//   this.firstName = first;
-//   this.lastName = last;
-//   this.protein = protein;
-//   this.veggies = veggies;
-//   this.pizzaSize= size;
-//
-// }
+function Pizza(protein) {
+  this.firstName = first;
+  this.lastName = last;
+  this.protein = protein;
+  this.veggies = veggies;
+
+}
 
 
 
@@ -21,8 +20,7 @@ $(document).ready(function() {
       $("input:checkbox[name=vegetables]:checked").each(function(){
     var inputtedVeggies= $(this).val();
 
-
-
+    var newPizza = new Pizza(inputtedFirstName, inputtedLastName, inputtedProtein, inputtedVeggies);
 
 
     $("#protein").append(inputtedProtein + "<br>");
@@ -33,7 +31,7 @@ $(document).ready(function() {
     $("#vegetables").show();
 
      $("#vegetables").append(inputtedVeggies + "<br>");
-    // var newPizza = new Pizza(inputtedProtein);
+
     });
   });
 });
