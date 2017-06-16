@@ -13,19 +13,24 @@ $(document).ready(function() {
   $("form#pizza").submit(function(event) {
   event.preventDefault();
 
-  $("#protein").show();
 
-  // var inputtedProtein = $("#protein").val();
-  $("input:checkbox[name=protein]:checked").each(function(){
+    var inputtedFirstName = $("input#new-first-name").val();
+    var inputtedLastName = $("input#new-last-name").val();
+    $("input:checkbox[name=protein]:checked").each(function(){
     var inputtedProtein= $(this).val();
+      $("input:checkbox[name=vegetables]:checked").each(function(){
+    var inputtedVeggies= $(this).val();
+
+
+
+
+
     $("#protein").append(inputtedProtein + "<br>");
 
   });
 
 
     $("#vegetables").show();
-    $("input:checkbox[name=vegetables]:checked").each(function(){
-    var inputtedVeggies= $(this).val();
 
      $("#vegetables").append(inputtedVeggies + "<br>");
     // var newPizza = new Pizza(inputtedProtein);
