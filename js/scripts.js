@@ -1,4 +1,4 @@
-function Pizza(first, last, size, cheese, protein, veggies, extra) {
+function Pizza(first, last, size, cheese, proteins, veggies) {
   this.firstName = first;
   this.lastName = last;
   this.pizzaSize = size;
@@ -10,7 +10,8 @@ function Pizza(first, last, size, cheese, protein, veggies, extra) {
 
 
 Pizza.prototype.fullCost = function() {
-  return + this.pizzaSize;
+  this.toppings = this.cheese + this.proteins + this.veggies;
+  return this.toppings + this.pizzaSize;
 }
 
 Pizza.prototype.fullName = function() {
@@ -34,10 +35,10 @@ $(document).ready(function() {
 
     var inputtedFirstName = $("input#new-first-name").val();
     var inputtedLastName = $("input#new-last-name").val();
-    var inputtedSize = ("#size").val();
-    var inputtedCheese = ("#cheese").val();
-    var inputtedProteins = ("#protein").val();
-    var inputtedVeggies = ("#veggies").val();
+    var inputtedSize = parseInt($("#size").val());
+    var inputtedCheese = parseInt($("#cheese").val());
+    var inputtedProteins = parseInt($("#protein").val());
+    var inputtedVeggies = parseInt($("#veggies").val());
 
     var newPizza = new Pizza(inputtedFirstName, inputtedLastName, inputtedSize, inputtedCheese, inputtedProteins, inputtedVeggies);
 
